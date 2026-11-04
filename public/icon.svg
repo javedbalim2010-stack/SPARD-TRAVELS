@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  
+  <!-- App Icon Base -->
+  <rect width="512" height="512" rx="115" fill="url(#bg)"/>
+  
+  <!-- Subtle circular accent -->
+  <circle cx="256" cy="256" r="210" fill="none" stroke="#ffffff" stroke-width="4" stroke-opacity="0.15" stroke-dasharray="12 12"/>
+  
+  <!-- Airplane & Calculator Glyph -->
+  <g filter="url(#shadow)" fill="#ffffff">
+    <!-- Plane Body -->
+    <path d="M256 100 L280 200 L400 270 L400 300 L280 260 L280 360 L320 395 L320 420 L256 405 L192 420 L192 395 L232 360 L232 260 L112 300 L112 270 L232 200 Z" />
+  </g>
+  
+  <!-- Badge badge: 7% -->
+  <g transform="translate(310, 310)">
+    <rect width="130" height="70" rx="18" fill="#0f172a" fill-opacity="0.9" stroke="#34d399" stroke-width="3"/>
+    <text x="65" y="46" font-family="Arial, sans-serif" font-size="34" font-weight="900" fill="#34d399" text-anchor="middle">7%</text>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "Airline Fare & Commission Calculator",
+  "description": "ওমান রিয়াল (OMR) এয়ারলাইন্স পাবলিশ ফেয়ার, বেস ফেয়ার, ৭% কমিশন ও সার্ভিস চার্জের তাৎক্ষণিক হিসাব ক্যালকুলেটর।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
